@@ -10,6 +10,14 @@ namespace AnonymousTypes //forma de encapsular vários valores sem ter q determi
     {
         static void Main(string[] args)
         {
+
+
+
+            //nullable
+            int? i = null;
+            string s = null;
+
+
             var valores = new[] { new { idade = 18, nome = "Luis" }, new { idade = 20, nome = "Alberto" } };
 
             foreach (var item in valores)
